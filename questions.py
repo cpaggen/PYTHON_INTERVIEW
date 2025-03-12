@@ -1,5 +1,4 @@
 ### Question 1 ###
-
 myVar = 100
 
 def f1():
@@ -15,13 +14,11 @@ print(f2())
 
 
 ### Question 2 ###
-
 myString = "testing 123"
 print(myString[::-1])
 
 
 ### Question 3 ###
-
 def f1(someString):
     foo    = "aeiouAEIOU"
     result = ""
@@ -35,7 +32,6 @@ print(f1("This fruit is a banana and not a peach"))
 
 
 ### Question 4 ###
-
 def f1(x, y):
     try:
         result = x / y
@@ -61,7 +57,6 @@ for x,y in testCases:
 
 
 ### Question 5 ###
-
 # file myCSV.txt on disk contains this: 
 #    Name,Age,City,Grade,Score
 #    Alice,25,New York,A,92
@@ -89,7 +84,6 @@ except:
 
 
 ### Question 6 ###
-
 for i in range(10):
     if (i % 2 == 0):
         continue
@@ -101,7 +95,6 @@ for i in range(10):
         print("bingo")
 
 ### Question 7 ###
-
 def f1(x):
     return(x*2)
 
@@ -114,7 +107,6 @@ print(y)
 
 
 #### Question 8 ###
-
 data = {
   "company": "ExampleCorp",
   "departments": [
@@ -164,3 +156,27 @@ print("Write a function that returns the total number of employees per departmen
 ### Question 8b
 print("Write the expression that retrieves \"Content Creation\" from this data structure")
 
+
+### Question 9
+class Animal:
+    _animalCount = 0
+
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
+        Animal._animalCount += 1
+
+    def make_sound(self):
+        return "Generic animal sound"
+
+class Cat(Animal):
+    def __init__(self, name, color):
+        super().__init__(name, "Felis catus")
+        self.color = color
+
+    def make_sound(self):
+        return "Meow!"
+
+myCat = Cat("Marcel", "Ginger")
+print(f"{myCat.name} says {myCat.make_sound()}")
+print("Write code that returns the number of animals instantiated")
