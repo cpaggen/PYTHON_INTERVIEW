@@ -17,8 +17,7 @@ The repository includes Python code with various interview questions covering:
 * **Loops and Conditional Statements:** Using `for` loops, `if` statements, `continue`, `break`, and `pass`.
 * **List Comprehensions:** Creating lists efficiently.
 * **Data Structures:** Working with dictionaries and nested data structures.
-* **Object-Oriented Programming (OOP):** Demonstrating inheritance and polymorphism with an `Animal` class and subclasses.
-* **Instance Counting and Species Tracking:** Demonstrating class variables and instance tracking.
+* **Object-Oriented Programming (OOP):** Demonstrating inheritance and polymorphism.
 
 ## Usage
 
