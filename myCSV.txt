@@ -1,0 +1,11 @@
+Name,Age,City,Grade,Score
+Alice,25,New York,A,92
+Bob,30,Los Angeles,B,85
+Charlie,28,Chicago,A,95
+David,22,Houston,C,78
+Emily,27,Philadelphia,B,88
+Frank,31,Phoenix,A,90
+Grace,24,San Antonio,C,76
+Henry,29,San Diego,B,83
+Ivy,26,Dallas,A,97
+Jack,32,San Jose,C,79

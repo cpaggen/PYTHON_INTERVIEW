@@ -1,0 +1,10 @@
+# q8a
+for dept in data["departments"]:
+    deptName = dept["name"]
+    empCount = 0
+    for person in dept["employees"]:
+        empCount +=1
+    print(f"Dept {deptName} has {empCount} employees")
+
+# q8b
+print(data["departments"][1]["employees"][0]["skills"][2])
